@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
         val animDrawable = constraintLayout?.background as AnimationDrawable
         animDrawable.setEnterFadeDuration(5000)
         animDrawable.setExitFadeDuration(5000)
